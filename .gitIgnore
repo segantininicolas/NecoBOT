@@ -1,0 +1,13 @@
+.env
+data.json
+saving.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.vscode/
+.idea/

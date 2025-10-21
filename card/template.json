@@ -1,0 +1,142 @@
+{
+    "baseImagem": {
+        "tamanhoImagem": [840, 1200],
+        "corImagem": "#FF0000",
+        "cantoArredondado": 30
+    },
+  "elementos": {
+    "banner": {
+      "tipo": "imagem_url",
+      "dado": "cover_url",
+      "posicao": [-1456, 0],
+      "tamanho": [3765, 1200],
+      "desfoque": 10,
+      "escurecer": 0.65
+    },
+    "avatar": {
+      "tipo": "imagem_url",
+      "dado": "avatar_url",  
+      "posicao": [72, 93],
+      "tamanho": [700, 700]
+    },
+    "rank_A": {
+      "tipo": "imagem_local",
+      "caminho": "rank_A.png",
+      "posicao": [23, 816],
+      "tamanho": [150, 75]
+    },
+    "rank_A_texto": {
+      "tipo": "texto",
+      "dado": "grade_A",
+      "alinhamento": "rank_A",
+      "deslocamentoY": 10,
+      "fonte": "Nunito-Black.ttf",
+      "tamanho_fonte": 50,
+      "cor": "#FFFFFF"
+    },
+    "rank_S": {
+      "tipo": "imagem_local",
+      "caminho": "rank_S.png",
+      "posicao": [185, 816],
+      "tamanho": [150, 75]
+      },
+      "rank_S_texto": {
+      "tipo": "texto",
+      "dado": "grade_S",
+      "alinhamento": "rank_S",
+      "deslocamentoY": 10,
+      "fonte": "Nunito-Black.ttf",
+      "tamanho_fonte": 50,
+      "cor": "#FFFFFF"
+      },
+    "rank_SH": {
+      "tipo": "imagem_local",
+      "caminho": "rank_SH.png",
+      "posicao": [344, 816],
+      "tamanho": [150, 75]
+      },
+      "rank_SH_texto": {
+      "tipo": "texto",
+      "dado": "grade_SH",
+      "alinhamento": "rank_SH",
+      "deslocamentoY": 10,
+      "fonte": "Nunito-Black.ttf",
+      "tamanho_fonte": 50,
+      "cor": "#FFFFFF"
+      },
+    "rank_SS": {
+      "tipo": "imagem_local",
+      "caminho": "rank_SS.png",
+      "posicao": [506, 816],
+      "tamanho": [150, 75]
+      },
+      "rank_SS_texto": {
+      "tipo": "texto",
+      "dado": "grade_SS",
+      "alinhamento": "rank_SS",
+      "deslocamentoY": 10,
+      "fonte": "Nunito-Black.ttf",
+      "tamanho_fonte": 50,
+      "cor": "#FFFFFF"
+      },
+    "rank_SSH": {
+      "tipo": "imagem_local",
+      "caminho": "rank_SSH.png",
+      "posicao": [668, 816],
+      "tamanho": [150, 75]
+      },
+    "rank_SSH_texto": {
+      "tipo": "texto",
+      "dado": "grade_SSH",
+      "alinhamento": "rank_SSH",
+      "deslocamentoY": 10,
+      "fonte": "Nunito-Black.ttf",
+      "tamanho_fonte": 50,
+      "cor": "#FFFFFF"
+      },
+    "bandeira":{
+      "tipo": "imagem_local_dinamica",
+      "dado": "country_code",
+      "sufixo": ".png",
+      "subpasta": "flags",
+      "posicao": [72, 20],
+      "tamanho": [71, 71]
+    },
+    "username": {
+      "tipo": "texto",  
+      "dado": "username",
+      "posicao": [147, 14],
+      "fonte": "Nunito-Black.ttf",
+      "tamanho_fonte": 60,
+      "cor": "#FFFFFF"
+    },
+    "rank": {
+        "tipo": "texto",
+        "texto_fixo": "Rank:",
+        "posicao": [600,150],
+        "fonte": "Nunito-Black.ttf",
+        "tamanho_fonte": 50,
+        "cor": "#FFFFFF"
+    },
+    "rank_valor": {
+        "tipo": "texto",
+        "dado": "rank",
+        "prefixo": "#",
+        "posicao": [600, 200],
+        "fonte": "Nunito-Black.ttf",
+        "tamanho_fonte": 50,
+        "cor": "#FFFFFF"
+    },
+    "pp": {
+      "tipo": "texto",
+      "dado": "pp",
+      "sufixo": "pp",
+      "alinharDireita": "avatar",
+      "deslocamentoYacima": 25,
+      "deslocamentoX": 0,
+      "fonte": "Nunito-Black.ttf",
+      "tamanho_fonte": 50,
+      "cor": "#FFFFFF"
+    }
+  }
+}
