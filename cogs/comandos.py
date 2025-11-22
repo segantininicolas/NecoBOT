@@ -223,8 +223,8 @@ class Comandos(commands.Cog):
         matches_x = re.match(r"(https://x.com/.*?/status/\w*)", message.content)
         matches_tiktok = re.match(r"(https://www.tiktok.com/@.*?/video/\d+)", message.content)
         matches_tiktok2 = re.match(r"(https://vm\.tiktok\.com/[\w/]+)", message.content)
-        matches_instagram1 = re.match(r"https?:\/\/(\w+\.)?instagram\.com\/[^\s]+", message.content)
-        matches_instagram2 = re.match(r"(\w+\.)?(instagram\.com\/)", message.content)
+       # matches_instagram1 = re.match(r"https?:\/\/(\w+\.)?instagram\.com\/[^\s]+", message.content)
+       # matches_instagram2 = re.match(r"(\w+\.)?(instagram\.com\/)", message.content)
 
         if matches_twitter:
             await message.channel.send(f'<@{message.author.id}>:\n{matches_twitter.groups()[0].replace("twitter", "vxtwitter")}')
@@ -242,13 +242,13 @@ class Comandos(commands.Cog):
             await message.channel.send(f'<@{message.author.id}>:\n{matches_tiktok2.groups()[0].replace("vm.tiktok", "vm.tnktok")}')
             await message.delete()
 
-        elif matches_instagram1:
-            await message.channel.send(f'<@{message.author.id}>:{matches_instagram1.group().replace("instagram.com", "vxinstagram.com")}')
-            await message.delete()
+      #  elif matches_instagram1:
+        #    await message.channel.send(f'<@{message.author.id}>:{matches_instagram1.group().replace("instagram.com", "vxinstagram.com")}')
+        #    await message.delete()
 
-        elif matches_instagram2:
-            await message.channel.send(f'<@{message.author.id}>:{matches_instagram2.group().replace("instagram.com", "vxinstagram.com")}')
-            await message.delete()
+      #  elif matches_instagram2:
+        #    await message.channel.send(f'<@{message.author.id}>:{matches_instagram2.group().replace("instagram.com", "vxinstagram.com")}')
+        #   await message.delete()
             
         if message.content.startswith('!'):
             await self.process_commands(message)
